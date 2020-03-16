@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA9B73E9214C5D8A0090BD81 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9B73E8214C5D8A0090BD81 /* CoreBluetooth.framework */; };
+		AAFF3EB3214BEAB800CE5B27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFF3EB2214BEAB800CE5B27 /* AppDelegate.swift */; };
+		AAFF3EB5214BEAB800CE5B27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFF3EB4214BEAB800CE5B27 /* ViewController.swift */; };
+		AAFF3EB8214BEAB800CE5B27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFF3EB6214BEAB800CE5B27 /* Main.storyboard */; };
+		AAFF3EBA214BEABA00CE5B27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFF3EB9214BEABA00CE5B27 /* Assets.xcassets */; };
+		AAFF3EBD214BEABA00CE5B27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFF3EBB214BEABA00CE5B27 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAFF3EC4214BEABA00CE5B27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAFF3EA7214BEAB800CE5B27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFF3EAE214BEAB800CE5B27;
+			remoteInfo = "bluno-robot";
+		};
+		AAFF3ECF214BEABA00CE5B27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAFF3EA7214BEAB800CE5B27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFF3EAE214BEAB800CE5B27;
+			remoteInfo = "bluno-robot";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA9B73E8214C5D8A0090BD81 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		AAFF3EAF214BEAB800CE5B27 /* bluno-robot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bluno-robot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFF3EB2214BEAB800CE5B27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAFF3EB4214BEAB800CE5B27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAFF3EB7214BEAB800CE5B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAFF3EB9214BEABA00CE5B27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAFF3EBC214BEABA00CE5B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAFF3EBE214BEABA00CE5B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAFF3EC3214BEABA00CE5B27 /* bluno-robotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bluno-robotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFF3ECE214BEABA00CE5B27 /* bluno-robotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bluno-robotUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAFF3EAC214BEAB800CE5B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9B73E9214C5D8A0090BD81 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFF3EC0214BEABA00CE5B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFF3ECB214BEABA00CE5B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA9B73E7214C5D8A0090BD81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA9B73E8214C5D8A0090BD81 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAFF3EA6214BEAB800CE5B27 = {
+			isa = PBXGroup;
+			children = (
+				AAFF3EB1214BEAB800CE5B27 /* bluno-robot */,
+				AAFF3EB0214BEAB800CE5B27 /* Products */,
+				AA9B73E7214C5D8A0090BD81 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AAFF3EB0214BEAB800CE5B27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAFF3EAF214BEAB800CE5B27 /* bluno-robot.app */,
+				AAFF3EC3214BEABA00CE5B27 /* bluno-robotTests.xctest */,
+				AAFF3ECE214BEABA00CE5B27 /* bluno-robotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAFF3EB1214BEAB800CE5B27 /* bluno-robot */ = {
+			isa = PBXGroup;
+			children = (
+				AAFF3EB2214BEAB800CE5B27 /* AppDelegate.swift */,
+				AAFF3EB4214BEAB800CE5B27 /* ViewController.swift */,
+				AAFF3EB6214BEAB800CE5B27 /* Main.storyboard */,
+				AAFF3EB9214BEABA00CE5B27 /* Assets.xcassets */,
+				AAFF3EBB214BEABA00CE5B27 /* LaunchScreen.storyboard */,
+				AAFF3EBE214BEABA00CE5B27 /* Info.plist */,
+			);
+			path = "bluno-robot";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAFF3EAE214BEAB800CE5B27 /* bluno-robot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFF3ED7214BEABA00CE5B27 /* Build configuration list for PBXNativeTarget "bluno-robot" */;
+			buildPhases = (
+				AAFF3EAB214BEAB800CE5B27 /* Sources */,
+				AAFF3EAC214BEAB800CE5B27 /* Frameworks */,
+				AAFF3EAD214BEAB800CE5B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bluno-robot";
+			productName = "bluno-robot";
+			productReference = AAFF3EAF214BEAB800CE5B27 /* bluno-robot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAFF3EC2214BEABA00CE5B27 /* bluno-robotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFF3EDA214BEABA00CE5B27 /* Build configuration list for PBXNativeTarget "bluno-robotTests" */;
+			buildPhases = (
+				AAFF3EBF214BEABA00CE5B27 /* Sources */,
+				AAFF3EC0214BEABA00CE5B27 /* Frameworks */,
+				AAFF3EC1214BEABA00CE5B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAFF3EC5214BEABA00CE5B27 /* PBXTargetDependency */,
+			);
+			name = "bluno-robotTests";
+			productName = "bluno-robotTests";
+			productReference = AAFF3EC3214BEABA00CE5B27 /* bluno-robotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAFF3ECD214BEABA00CE5B27 /* bluno-robotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFF3EDD214BEABA00CE5B27 /* Build configuration list for PBXNativeTarget "bluno-robotUITests" */;
+			buildPhases = (
+				AAFF3ECA214BEABA00CE5B27 /* Sources */,
+				AAFF3ECB214BEABA00CE5B27 /* Frameworks */,
+				AAFF3ECC214BEABA00CE5B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAFF3ED0214BEABA00CE5B27 /* PBXTargetDependency */,
+			);
+			name = "bluno-robotUITests";
+			productName = "bluno-robotUITests";
+			productReference = AAFF3ECE214BEABA00CE5B27 /* bluno-robotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAFF3EA7214BEAB800CE5B27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Rahul Katre";
+				TargetAttributes = {
+					AAFF3EAE214BEAB800CE5B27 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					AAFF3EC2214BEABA00CE5B27 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = AAFF3EAE214BEAB800CE5B27;
+					};
+					AAFF3ECD214BEABA00CE5B27 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = AAFF3EAE214BEAB800CE5B27;
+					};
+				};
+			};
+			buildConfigurationList = AAFF3EAA214BEAB800CE5B27 /* Build configuration list for PBXProject "bluno-robot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAFF3EA6214BEAB800CE5B27;
+			productRefGroup = AAFF3EB0214BEAB800CE5B27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAFF3EAE214BEAB800CE5B27 /* bluno-robot */,
+				AAFF3EC2214BEABA00CE5B27 /* bluno-robotTests */,
+				AAFF3ECD214BEABA00CE5B27 /* bluno-robotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAFF3EAD214BEAB800CE5B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFF3EBD214BEABA00CE5B27 /* LaunchScreen.storyboard in Resources */,
+				AAFF3EBA214BEABA00CE5B27 /* Assets.xcassets in Resources */,
+				AAFF3EB8214BEAB800CE5B27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFF3EC1214BEABA00CE5B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFF3ECC214BEABA00CE5B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAFF3EAB214BEAB800CE5B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFF3EB5214BEAB800CE5B27 /* ViewController.swift in Sources */,
+				AAFF3EB3214BEAB800CE5B27 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFF3EBF214BEABA00CE5B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFF3ECA214BEABA00CE5B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAFF3EC5214BEABA00CE5B27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFF3EAE214BEAB800CE5B27 /* bluno-robot */;
+			targetProxy = AAFF3EC4214BEABA00CE5B27 /* PBXContainerItemProxy */;
+		};
+		AAFF3ED0214BEABA00CE5B27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFF3EAE214BEAB800CE5B27 /* bluno-robot */;
+			targetProxy = AAFF3ECF214BEABA00CE5B27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAFF3EB6214BEAB800CE5B27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAFF3EB7214BEAB800CE5B27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAFF3EBB214BEABA00CE5B27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAFF3EBC214BEABA00CE5B27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAFF3ED5214BEABA00CE5B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAFF3ED6214BEABA00CE5B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAFF3ED8214BEABA00CE5B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UGLEY8YZ3D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "bluno-robot/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rahulkatre.zumo-bluno-controller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAFF3ED9214BEABA00CE5B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UGLEY8YZ3D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "bluno-robot/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rahulkatre.zumo-bluno-controller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAFF3EDB214BEABA00CE5B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bluno-robotTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rahulkatre.bluno-robotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bluno-robot.app/bluno-robot";
+			};
+			name = Debug;
+		};
+		AAFF3EDC214BEABA00CE5B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bluno-robotTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rahulkatre.bluno-robotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bluno-robot.app/bluno-robot";
+			};
+			name = Release;
+		};
+		AAFF3EDE214BEABA00CE5B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bluno-robotUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rahulkatre.bluno-robotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bluno-robot";
+			};
+			name = Debug;
+		};
+		AAFF3EDF214BEABA00CE5B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "bluno-robotUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rahulkatre.bluno-robotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bluno-robot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAFF3EAA214BEAB800CE5B27 /* Build configuration list for PBXProject "bluno-robot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFF3ED5214BEABA00CE5B27 /* Debug */,
+				AAFF3ED6214BEABA00CE5B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFF3ED7214BEABA00CE5B27 /* Build configuration list for PBXNativeTarget "bluno-robot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFF3ED8214BEABA00CE5B27 /* Debug */,
+				AAFF3ED9214BEABA00CE5B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFF3EDA214BEABA00CE5B27 /* Build configuration list for PBXNativeTarget "bluno-robotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFF3EDB214BEABA00CE5B27 /* Debug */,
+				AAFF3EDC214BEABA00CE5B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFF3EDD214BEABA00CE5B27 /* Build configuration list for PBXNativeTarget "bluno-robotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFF3EDE214BEABA00CE5B27 /* Debug */,
+				AAFF3EDF214BEABA00CE5B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAFF3EA7214BEAB800CE5B27 /* Project object */;
+}
